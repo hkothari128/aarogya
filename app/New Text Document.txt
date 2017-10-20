@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "748998520668",
+    "firebase_url": "https://myapplication-75bf5.firebaseio.com",
+    "project_id": "myapplication-75bf5",
+    "storage_bucket": "myapplication-75bf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748998520668:android:98886cd144e085e4",
+        "android_client_info": {
+          "package_name": "com.example.huzaifa.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748998520668-8q0lb5rd1anquofbdqoe03ckpba809us.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.huzaifa.myapplication",
+            "certificate_hash": "1836A41F894EF973D5BE7BE03D89E4126F1AA058"
+          }
+        },
+        {
+          "client_id": "748998520668-3qq0ga9b0t85jdgds24eta6oju4issba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.huzaifa.myapplication",
+            "certificate_hash": "D847D6E075A29700624305586C1D9DDD87EC5895"
+          }
+        },
+        {
+          "client_id": "748998520668-e706gffsc3pbng2sueorqq0e6eab6evm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq4JbhJDiEQty0RQb7ut9CIxtMveDDt7k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748998520668-e706gffsc3pbng2sueorqq0e6eab6evm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

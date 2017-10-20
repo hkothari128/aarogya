@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_directions_run_black_24px"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/progress"
+            android:icon="@drawable/ic_timeline_black_24px"
+            android:title="Progress" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/ic_menu_history"
+            android:title="History" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_keyboard_return_black_24px"
+                android:title="Logout" />
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+
+        </menu>
+    </item>
+
+</menu>

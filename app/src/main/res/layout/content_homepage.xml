@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/content_homepage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/background"
+    android:weightSum="6"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.huzaifa.myapplication.homepage"
+    tools:showIn="@layout/app_bar_homepage"
+    >
+
+    <include
+        layout="@layout/app_bar_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+
+            android:name="com.example.huzaifa.myapplication.Pedometer"
+
+            android:layout_centerHorizontal="true"
+
+            android:id="@+id/fragment"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:background="@android:color/darker_gray"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+           android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:id="@+id/calin"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:id="@+id/calout"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:background="@android:color/darker_gray"/>
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
